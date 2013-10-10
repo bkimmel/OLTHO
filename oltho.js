@@ -140,6 +140,7 @@ console.log(JSON.stringify(Taxonomy.climb({Species: felix.Species})));
 //gather
 console.log(JSON.stringify(Taxonomy.gather({Kingdom: "Animalia"})));
 console.log(JSON.stringify(Taxonomy.gather({Order: "Artiodactyla"})));
+console.log(JSON.stringify(Taxonomy.gather({Species: "Sus_domestica"})));
 
 
 
